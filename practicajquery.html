@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/PRÁCTICA JQUERY/estilosjquery.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>UD4-Diseño de Interfaz</title>
+</head>
+<body>
+    <h1>Ejercicio UD 4</h1>
+    <h2>Herramientas para la creación de botones con JQuery, HTML5, y CSS</h2>
+    <h3>Zona Uno</h3>
+    <div class="texto">
+        <label id="display" class="display">0</label>
+    </div>
+      <div class="group-buttons">
+        <a href="#" id = "suma" class="buttonA">SUMAR</a>
+        <a href="#" id = "resta" class="buttonB">RESTAR</a>
+    </div><br>
+    <h3>Zona Dos</h3>
+    <a class="buttonAlerta" id ="alerta" href="#"> alerta</a>
+    
+    <script type="text/javascript">
+    //Hemos creado dos funciones para aumentar o disminuir un contador de manera manual
+    var i = 0;
+        $('#suma').click(function(){ 
+            
+            if (i < 100 ) {
+                i++;
+                } else if (i = i++) {
+                i = 0;
+                }
+                document.getElementById("display").innerHTML = i;
+            })
+
+        $('#resta').click(function(){ 
+            
+                if (i > 0) {
+                    --i;
+                } 
+                document.getElementById("display").innerHTML = i;
+        })
+    </script>
+    
+    <script type="text/javascript">
+    //Hemos creado una función que al darle al botón muestra una alerta en pantalla
+            
+        $('#alerta').click(function(){
+             alert ("Este es un mensaje de ALERTA !!!!");
+        })
+    </script>
+</body>
+</html>

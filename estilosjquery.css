@@ -1,0 +1,115 @@
+
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: 50px;
+margin-left: 80px;
+};
+
+a, label{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration:none;
+  }
+.display{
+    font-weight: 500em;
+}
+.group-buttons{
+    display:block;
+    margin-top:20px;
+    margin-left:200px;
+}
+
+.texto{
+    margin-left:300px;
+    
+    font-size:6em;
+  }
+.buttonA{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 20px;
+    text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: rgb(210, 20, 20);
+    background: -moz-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -webkit-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -o-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -ms-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: linear-gradient(0deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    -webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+    
+  }
+.buttonB{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 20px;
+    text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: rgb(210, 20, 20);
+    background: -moz-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -webkit-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -o-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -ms-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: linear-gradient(0deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    -webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+    
+  }
+  .buttonAlerta {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #a000f0;
+    border-radius: 8px;
+    background: #ae4aff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ae4aff), to(#5c2699));
+    background: -moz-linear-gradient(top, #ae4aff, #5c2699);
+    background: linear-gradient(to bottom, #ae4aff, #5c2699);
+    font: normal normal normal 20px tahoma;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.buttonAlerta:hover {
+    border: 1px solid #ff00ff;
+    background: #d159ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d159ff), to(#6e2eb8));
+    background: -moz-linear-gradient(top, #d159ff, #6e2eb8);
+    background: linear-gradient(to bottom, #d159ff, #6e2eb8);
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.buttonAlerta:active {
+    background: #682c99;
+    background: -webkit-gradient(linear, left top, left bottom, from(#682c99), to(#5c2699));
+    background: -moz-linear-gradient(top, #682c99, #5c2699);
+    background: linear-gradient(to bottom, #682c99, #5c2699);
+    text-transform: uppercase
+}
+.buttonAlerta:focus {
+    text-transform: uppercase
+}
+.buttonAlerta:before{
+    content:  "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAC9klEQVRIidWUTWhcVRSAv/eX9zLpvHnznxknqU1jI4gw3UhBVy4kgitFENfiSixtdy+4aenIoCLi3pXrghtXXYuLCs9VLVWx0xIpmrSYmbx57977rotOZxIyk8S40QNnc/6+ew7nHvi/i3GcoCjE8+qFy/65Z65ojfzr9v3Pk62dT9sd5FG59nEAXpD/aGX9pdAcmmBA5Uzz41+/+W4Odq/+6w6ikNXWhRfuFhqLZEoDYNkm270HbN766XS7Q++wfPMowEKl0C226qhEoqVCS4UcCsqnG+SK+e5R+YcCopALtbWlN9Vuyp+PBG9fHfDyxT5ffTtExYLq80vvRCHtEwP8xdInp4o+WSK4c0+yufVkRN/fVmSJwK8E5GvBZycC/LhhvFs/u/iK6icgJSg19imlQUrUTkpttflqFLL+jwBRiB00itdc10WlEi0keWcCmHc0WkhUKsh5LkGj+GUUTq813WiZ79WXqyuynz55vZTMGZOVL+aysV30UxaXq6uGabx/LEAU4leaxQ1bG2ghYKR5ewIIvGxs10JgY1JpFjeiEP9IgONYH1ar+VY6SNCjAloICk46jinn5D5fOkio1vyW41gfHAqIQpqVmn9Jp5MRPNWcKbBG0cGcPOAnzajU/CtRSHMmwHWta+XALck4HY9gr54pCgDWyvEBn4xTyoFbcl37+t6a41MRhay0GvlfTs27ezdynzzs2zwemqxV0ql+y4L+MOHB5s5z7Q4/w55jl/OsbjBvkwxnH8gfejkeDmwCO6W+cDBOCQg8m0ee3QX51riDKGR1uezdzTk2Kpte/NbvC1y+2QLgfH2XL167P70LE2KluPdHfL7dIXrawRueAUrMmA2QtydjyTuKWXNUCjxDA6zDBLCdpgrbnH29zxUGfP36HR4nNmulGD063dMkyTTAJky26MZ2LHtajl42Q5cWYl4s7TCHnBmjpWIrlj3gBuzfomc9i+68aawbxsEfeRzRmv4w0zdjxaV2h99OUuO/J38Dldp3HW9R3RkAAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
